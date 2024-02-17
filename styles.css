@@ -1,0 +1,43 @@
+html {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    
+}
+
+#bg {
+    background-image: url(https://images.axios.com/xc1IUOsKOpcWY_lB3ZwcWB6qAoY=/0x0:1920x1080/1920x1080/2023/10/27/1698442444872.jpg?w=1920);
+    background-size: 200px;
+    opacity: 0.75;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: "";
+    z-index: -1;
+}
+
+#countdown {
+    font-size: 3em;
+    margin: 0;
+}
+
+.quote {
+    background-color:blue;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 3em;
+    border-style: inset;
+    border-width: 10px;
+    margin-top: 40px;
+}
+
+.time {
+   background-color: gold;
+}
