@@ -6,7 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="img/favicon.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
 
   <!-- js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,11 +19,14 @@
     html {
       text-align: center;
       margin: 20px;
-      background-color: lightgoldenrodyellow;
-      color: blue;
+      /* background-color: lightgoldenrodyellow; */
+      color: black;
     }
     img {
       width: 80%;
+    }
+    .ital {
+      font-style: oblique;
     }
     @media only screen and (min-width: 768px) {
       img {
@@ -34,8 +40,24 @@
 
     <h1 id="countdown"></h1>
     <h2 id="tagline">until Daylight Saving Time!</h2>
-    <img src="https://images.axios.com/xc1IUOsKOpcWY_lB3ZwcWB6qAoY=/0x0:1920x1080/1920x1080/2023/10/27/1698442444872.jpg?w=1920">
-    <p>&ldquo;Don&rsquo;t think of it like we&rsquo;re losing an hour. No. Daylight Saving Time is an investment. An investment towards 8pm in the summertime.&rdquo;<br><br>—Michael Basmajian</p>
+    <img src="Clock.png">
+    <p class="ital">&ldquo;Don&rsquo;t think of it like we&rsquo;re losing an hour. No. Daylight Saving Time is an investment. An investment towards 8 P.M. in the summertime.&rdquo;</p>
+    <p>—Michael Basmajian</p>
+
+    <hr>
+
+    <h2>Did you know??</h2>
+    <p>In the U.K. and other parts of Europe, Daylight Saving Time (DST) is called &ldquo;Summer Time.&rdquo; I love that.</p>
+    <p>The U.S. Department of Transportation (DOT) oversees the time zones and the uniform observance of DST.</p>
+    <p>The Uniform Time Act of 1966 established uniform Daylight Saving Time! States can choose to opt out (like most of Arizona).</p>
+    <p>It&rsquo;s Daylight <span class="ital">Saving</span> Time—no <span class="ital">s</span>!</p>
+
+    <hr>
+
+    <h2>Further information</h2>
+    <p><a href="https://en.wikipedia.org/wiki/Daylight_saving_time">Daylight saving time Wikipedia entry</a><br></p>
+    <p><a href="https://www.transportation.gov/regulations/time-act">U.S. DOT page on Uniform Time</a></p>
+
   </body>
 
 </html>
