@@ -23,7 +23,7 @@ function setup() {
         // If the count down is finished, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown").innerHTML = "Check back in 2026!";
+            document.getElementById("countdown").innerHTML = "We made it!!!";
         }
 
     };
